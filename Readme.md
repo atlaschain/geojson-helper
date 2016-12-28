@@ -12,9 +12,11 @@ the new standard specification of the GeoJSON format, replacing the [2008 GeoJSO
 [2]: https://tools.ietf.org/html/rfc7946
 [3]: http://geojson.org/geojson-spec.html
 
-**Accounts**
 
- - 0x239dac47d0b44b413e10973a97966479fd452cfa   123   coinbase
- - 0xc2dcea2ebd99e757b07b9f9bb3ec78263e9395f4   123
- - 0x42ade140ed0eb22dfddedb0c4623b84753ee29b3   123
- - 0xfd2fe758576a0fd9007adbd84c3de14dc1773e16   123
+## Instructions to run
+
+1. Set the Accounts as environment variables.
+2. Fill in account details in `set_accounts.sh`
+3. Run `. ./set_accounts.sh` to load addresses as environment variables.
+4. Install node dependencies by runnung `yarn install` or `npm install`
+5. Run the script `yarn start`
