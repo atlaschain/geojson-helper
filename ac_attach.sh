@@ -1,3 +1,3 @@
 #!/bin/bash
 
-geth attach ipc:/home/ether/atlaschain/.ethereum/geth.ipc
+geth attach ipc:$HOME/atlaschain/.ethereum/geth.ipc
